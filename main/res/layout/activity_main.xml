@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#222">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        android:text="TextureView"
+        android:background="#000" />
+
+    <Button
+        android:id="@+id/btnTorch"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Torch"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Record"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
